@@ -1,0 +1,48 @@
+{
+  "numeric": [
+    "tokens_per_student"
+  ],
+  "proportion": [
+    "review_rate"
+  ],
+  "categorical": [
+    "format"
+  ],
+  "ordinal": {
+    "stage": [
+      "intro",
+      "middle",
+      "advanced"
+    ]
+  },
+  "feature_weights": {
+    "tokens_per_student": 1,
+    "review_rate": 1,
+    "format": 1,
+    "stage": 1
+  },
+  "candidate_k": [
+    2,
+    3,
+    4
+  ],
+  "resampling_unit": "department",
+  "stability_repeats": 100,
+  "restarts": 10,
+  "seed": 1120110,
+  "max_assignment_distance": 0.6,
+  "hand_distance": {
+    "training_range": [
+      0,
+      10
+    ],
+    "a": {
+      "value": 0,
+      "category": "a"
+    },
+    "b": {
+      "value": 5,
+      "category": "b"
+    }
+  }
+}

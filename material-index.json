@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/course_metrics.csv",
+    "sha256": "3bee0dc8696f3b91437691802cd82973de390de5a08482eff30c37022ed6e28a",
+    "size_bytes": 1243
+  },
+  {
+    "path": "fixtures/features.json",
+    "sha256": "285b7394243816f5925a199e2b81eca7bc4a346b4a105aa80ebab6d7f9115b61",
+    "size_bytes": 694
+  }
+]
